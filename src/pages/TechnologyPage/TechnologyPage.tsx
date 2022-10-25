@@ -1,14 +1,14 @@
 import { Box, Button, Stack, Typography } from "@mui/material";
 import { useState } from "react";
 import { StyledBox, StyledContainer } from "./styles";
-import launchVehicleImgLandscape from "assets/technology/image-launch-vehicle-landscape.jpg";
-import spacePortImgLandscape from "assets/technology/image-spaceport-landscape.jpg";
-import spaceCapsuleImgLandscape from "assets/technology/image-space-capsule-landscape.jpg";
-import launchVehicleImgPortrait from "assets/technology/image-launch-vehicle-portrait.jpg";
-import spacePortImgPortrait from "assets/technology/image-spaceport-portrait.jpg";
-import spaceCapsuleImgPortrait from "assets/technology/image-space-capsule-portrait.jpg";
-import Technology from "components/Technology/Technology";
-import data from "data.json";
+import launchVehicleImgLandscape from "../../assets/technology/image-launch-vehicle-landscape.jpg";
+import spacePortImgLandscape from "../../assets/technology/image-spaceport-landscape.jpg";
+import spaceCapsuleImgLandscape from "../../assets/technology/image-space-capsule-landscape.jpg";
+import launchVehicleImgPortrait from "../../assets/technology/image-launch-vehicle-portrait.jpg";
+import spacePortImgPortrait from "../../assets/technology/image-spaceport-portrait.jpg";
+import spaceCapsuleImgPortrait from "../../assets/technology/image-space-capsule-portrait.jpg";
+import Technology from "../../components/Technology/Technology";
+import data from "../../data.json";
 import { Helmet } from "react-helmet-async";
 
 const TechnologyPage = () => {

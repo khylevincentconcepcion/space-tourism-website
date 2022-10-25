@@ -1,11 +1,11 @@
 import { Box, Button, Stack, Typography } from "@mui/material";
 import { StyledContainer, StyledBox } from "./styles";
 import { useState } from "react";
-import anoushehImg from "assets/crew/image-anousheh-ansari.webp";
-import douglasImg from "assets/crew/image-douglas-hurley.webp";
-import markImg from "assets/crew/image-mark-shuttleworth.webp";
-import victorImg from "assets/crew/image-victor-glover.webp";
-import Crew from "components/Crew/Crew";
+import anoushehImg from "../../assets/crew/image-anousheh-ansari.webp";
+import douglasImg from "../../assets/crew/image-douglas-hurley.webp";
+import markImg from "../../assets/crew/image-mark-shuttleworth.webp";
+import victorImg from "../../assets/crew/image-victor-glover.webp";
+import Crew from "../../components/Crew/Crew";
 import data from "../../data.json";
 import { Helmet } from "react-helmet-async";
 
